@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        #div{
+            max-width: 50%;
+            margin: auto;
+        }
+        form{
+            background-color: whitesmoke;
+            max-width: 50%;
+            margin: auto;
+            padding-left: 15px;
+        }
+        label,input{
+           margin: 5px;
+           
+        }
+        .input{
+            height: 30px;
+            width: 60%;
+            border-radius: 5px;
+
+        }
+        #sub{
+            margin-left: 10px;
+            margin-top: 20px;
+            height: 35px;
+            width: 75px;
+            background-color: green;
+        }
+        #data{
+            margin-left: 190px;
+            margin-top: 10px;
+            height: 35px;
+            width: 90px;
+            background-color:green ;
+        }
+        #h1{
+            margin-left: 190px;
+            margin-top: 20px;
+
+        }
+        
+        
+    </style>
+</head>
+<body>
+    
+    <div id="div">
+        <form action="" id="form">
+            <h1>Submit Your Data</h1>
+            <label for="name">Name:</label><br>
+            <input type="text" class="input" id="input"><br>
+            <label for="email">Email:</label><br>
+            <input type="Email" class="input" id="email"><br>
+            <button id="sub">Submit</button>
+        </form>
+            
+            <h1 id="h1">Fetched Data</h1>
+            <button id="data">Fetch Data</button>
+        <div id="response"></div>
+    </div>
+    <div id="ani"></div>
+    <!-- <script src="script.js"></script> -->
+    <script src="script2.js"></script>
+</body>
+</html>
